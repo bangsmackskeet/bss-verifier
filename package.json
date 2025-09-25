@@ -1,0 +1,18 @@
+{
+  "name": "bss-verifier",
+  "version": "1.0.0",
+  "description": "YouTube subscription verifier for BSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^126.0.1",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
